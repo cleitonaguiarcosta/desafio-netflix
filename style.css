@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    
+}
+
+img{
+    width:200px;
+    height:200px;
+}
+a{
+    display:flex;
+    justify-content:space-between;
+    text-decoration: none;
+}
+.divnav{
+    width:100%;
+    display: flex;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding:50px;
+}
+.link{
+    margin: 5px;
+}
