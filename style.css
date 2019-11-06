@@ -3,32 +3,48 @@
     padding:0;
     box-sizing:border-box;
 }
-body{
+/* body{
     background-color: black;
-}
+} */
 header{
-    
+    padding:15px; 
+    display: flex;
+    align-items: center;
+    background-color:black;  
 }
-
 img{
-    width:200px;
-    height:200px;
+    max-width: 6%;
+    /* margin-left: */
+    /* margin-bottom:50px; */
+}
+.lup{
+    width:2%;
+}
+.imgsin{
+    width:2%;
 }
 a{
     display:flex;
-    justify-content:space-between;
+    /* justify-content:space-between; */
     text-decoration: none;
 }
 .divnav{
-    width:100%;
+    /* width:90%; */
     display: flex;
+    
+    align-items: center;
+    /* margin-bottom:10px; */
+    /* padding-bottom:20px; */
+
 }
 ul{
     display: flex;
+    justify-content: center;
     flex-direction: row;
     list-style: none;
-    padding:50px;
+    /* padding:50px; */
 }
 .link{
-    margin: 5px;
+    margin:20px;
+    color: white;
 }
