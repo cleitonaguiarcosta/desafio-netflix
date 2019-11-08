@@ -9,24 +9,36 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="divnav">
-                    <img src="net.svg">
-                <ul>
-                    <a class="link" href=""><li>inicio</li></a>
-                    <a class="link" href=""><li>Series</li></a>
-                    <a class="link" href=""><li>Filmes</li></a>
-                    <a class="link" href=""><li>Adicionados recentementes</li></a>
-                    <a class="link" href=""><li>Minha lista</li></a>
-                </ul>
-                <!-- <div class="divinp">
-                    <img class="lup" src="lupa.png">
-                    <input type="text">
-                    <img class="imgsin" src="sino.png"> -->
+               <div class="divnav">
+                        <img class="logo" src="net.svg">
+                 <nav>
+                      <a class="link" href=""><li>inicio</li></a>
+                     <a class="link" href=""><li>Series</li></a>
+                     <a class="link" href=""><li>Filmes</li></a>
+                     <a class="link" href=""><li>Adicionados recentementes</li></a>
+                     <a class="link" href=""><li>Minha lista</li></a>
+                  </nav>
                 </div>
-         </div>
-        </nav>
-        
+                <div class="divinteracao">
+                    <img class="lup" src="lupa.png" onclick="search()">
+                    <input type="text" placeholder="Titulos,Generos...">
+                </div>
+                <div class="divinfo">
+                     <img class="imgsin" src="sino.png">
+                     <img class="perfil" src="prfil.jpeg">
+                  
+                </div>
+                <p>INFANTIL</p>
+                <p class="p">&#10151;</p>
     </header>
+    <script src="main.js"></script>
+
+    <main>
+        <section class="secimg"></section>
+    </main>
+    <button class="button">Assistir</button>
+    <button class="button">minha lista</button>
+    <button class="button">Mais informações</button>
+    
 </body>
 </html>
