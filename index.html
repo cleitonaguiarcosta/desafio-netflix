@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,38 +8,51 @@
     <link rel="stylesheet" href="style.css">
     <title>Netflix</title>
 </head>
+
 <body>
     <header>
-               <div class="divnav">
-                        <img class="logo" src="net.svg">
-                 <nav>
-                      <a class="link" href=""><li>inicio</li></a>
-                     <a class="link" href=""><li>Series</li></a>
-                     <a class="link" href=""><li>Filmes</li></a>
-                     <a class="link" href=""><li>Adicionados recentementes</li></a>
-                     <a class="link" href=""><li>Minha lista</li></a>
-                  </nav>
-                </div>
-                <div class="divinteracao">
-                    <img class="lup" src="lupa.png" onclick="search()">
-                    <input type="text" placeholder="Titulos,Generos...">
-                </div>
-                <div class="divinfo">
-                     <img class="imgsin" src="sino.png">
-                     <img class="perfil" src="prfil.jpeg">
-                  
-                </div>
-                <p>INFANTIL</p>
-                <p class="p">&#10151;</p>
+        <div class="divnav">
+            <img class="logo" src="net.svg">
+            <nav>
+                <a class="link" href="">
+                    <li>inicio</li>
+                </a>
+                <a class="link" href="">
+                    <li>Series</li>
+                </a>
+                <a class="link" href="">
+                    <li>Filmes</li>
+                </a>
+                <a class="link" href="">
+                    <li>Adicionados recentementes</li>
+                </a>
+                <a class="link" href="">
+                    <li>Minha lista</li>
+                </a>
+            </nav>
+        </div>
+        <div class="divinteracao">
+            <img class="lup" src="lupa.png" onclick="search()">
+            <input type="text" placeholder="Titulos,Generos...">
+        </div>
+        <div class="divinfo">
+            <img class="imgsin" src="sino.png">
+            <img class="perfil" src="prfil.jpeg">
+
+        </div>
+        <p>INFANTIL</p>
+        <p class="p">&#10151;</p>
     </header>
     <script src="main.js"></script>
 
     <main>
-        <section class="secimg"></section>
+        <section class="secimg">
+            <h1 class="h1">Deadpool</h1>
+            <button class="button"><p>&#9654; &nbsp;Assistir</p></button>
+            <button class="button"><p>	&#10003; &nbsp;minha lista</p></button>
+            <button class="button"><p>	&#9774; &nbsp;Mais informações</p></button>
+        </section>
     </main>
-    <button class="button">Assistir</button>
-    <button class="button">minha lista</button>
-    <button class="button">Mais informações</button>
-    
 </body>
+
 </html>
