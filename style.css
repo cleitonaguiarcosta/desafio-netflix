@@ -23,8 +23,9 @@ header{
     width:30px;
 }
 .slides{
-    width: 220px;
+    width: 215px;
     height:150px;
+    padding: 5px;
     
 }
 a{
@@ -76,19 +77,17 @@ input{
 }
 .secimg{
     width:100%;
-    height: 90vh;
+    height: 100vh;
     background-image: url("https://66.media.tumblr.com/057738579e0784fc7a59157d906257a9/87e1809a2c14d044-92/s640x960/2bb600ac6e9339517b94306f6b620ec80420efb7.gif");
     background-size: cover;
     background-repeat:no-repeat;
-    position: absolute;
 }
 .button{
     width:200px;
     height:50px;
     font-size: 20px;
-    position: relative;
-    top: 400px;
     padding: 5px;
+    margin-top: 300px;
     border: none;
     color: white;
     background-color: rgba(255, 255, 255, 0.068);
@@ -105,13 +104,13 @@ input{
 .perfil{
     width: 30px;
 }
-.dvslides{
+.dvslides, .dvslides--second{
     width:100%;
     display:flex;
     /* margin-top:400px; */
     align-items: flex-end;
     /* flex-direction: row; */
-    position: relative;
+    /* position: relative; */
     top: 500px;
     background-color: black;
 
@@ -122,11 +121,36 @@ input{
     /* margin-top:400px; */
     align-items: flex-end;
     /* flex-direction: row; */
-    position: relative;
+    /* position: relative; */
     top: 500px;
     background-color: black;
 
 }
 h1{
-    color: black;
+    /* background-color: black; */
+    background: black;
+    color:white;
 }
+.title{
+    font-size: 150px;
+    color: red;
+    padding-left: 10px;
+    background: none;
+    animation-name:mover;
+	animation-delay:0.2s;
+	animation-duration:5s;
+	animation-iteration-count:infinite;
+}
+@keyframes mover{
+	0%{
+		top:50px;
+		left:50px;
+
+	}25%{
+	    color:green ;
+    }
+ }
+ .seta{
+     position: relative;
+     left: 0;
+ }
